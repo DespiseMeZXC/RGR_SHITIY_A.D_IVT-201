@@ -1,0 +1,296 @@
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #9aa3ba;
+        line-height: 26px;
+        margin: 0;
+        background: rgb(58, 70, 115);
+        background: radial-gradient(circle, rgba(58, 70, 115, 1) 0%, rgba(41, 41, 51, 1) 100%);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    li {
+        padding: 0;
+    }
+    
+    .main-page {
+        margin-left: 14%;
+        margin-right: 6%;
+        position: relative;
+    }
+    /* НАЧАЛО БЛОКА МЕНЮ */
+    
+    .margin-menu {
+        padding-top: 56px;
+    }
+    
+    .logo {
+        display: block;
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 63px;
+        height: 70px;
+        margin-right: 0;
+        position: absolute;
+    }
+    
+    .box-nav {
+        display: flex;
+        padding-left: 71px;
+        justify-content: space-between;
+    }
+    
+    .nav {
+        font-size: 20px;
+        font-weight: 400;
+        color: #6e7ea9;
+        margin: 13px 0 0 68px;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        position: relative;
+    }
+    
+    .nav>li {
+        padding: 0;
+        margin-right: 58px;
+        letter-spacing: 0.59px;
+    }
+    
+    .nav li:hover {
+        border-bottom: 3px solid #e5d19c;
+        transition: 0.3s;
+    }
+    
+    .nav-item {
+        color: #c7c8cd;
+    }
+    
+    .box-search {
+        margin-top: 7px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        display: flex;
+        background-color: #fff;
+        border-radius: 50px;
+    }
+    
+    .margin-input {
+        margin-right: 39px;
+    }
+    
+    .box-search input:focus {
+        outline: none;
+    }
+    
+    .box-search input::placeholder {
+        color: #000;
+    }
+    
+    .input_nav {
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        max-width: 200px;
+        color: #000;
+        margin-left: 82px;
+        padding-left: 5.9px;
+        padding-right: 130px;
+        border: 0px;
+        background-color: transparent;
+        text-transform: capitalize;
+        box-sizing: border-box;
+    }
+    
+    .search-img {
+        margin-left: -132px;
+        margin-right: 20px;
+        background-image: url(../img/search.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 26px;
+        width: 26px;
+    }
+    /* КОНЕЦ БЛОКА МЕНЮ */
+    
+    .stars-img {
+        background-image: url(../img/stars-png.png);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        height: 253px;
+        width: 239px;
+        position: absolute;
+        margin-top: 48px;
+        margin-left: -196px;
+    }
+    /* НАЧАЛО ЦЕНТРАЛЬНОГО БЛОКА */
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .date-h2-span {
+        font-size: 20px;
+        font-weight: 200;
+        color: #fff;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        max-width: 450px;
+        margin-bottom: 25px;
+    }
+    
+    .date-h2-span span {
+        display: block;
+        font-weight: 800;
+        font-size: 30px;
+        color: #e5d19c;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+    }
+    
+    .span-h2 {
+        margin-top: 320px;
+        margin-left: -28px;
+    }
+    
+    .span-h2 span {
+        margin-bottom: 10px;
+    }
+    
+    .span-h2 h2 {
+        line-height: 25px;
+    }
+    
+    .btn-more {
+        color: #292934;
+        font-size: 17px;
+        font-weight: 600;
+        background-color: #e5d19b;
+        border-radius: 30px;
+        border: 1px solid #e5d19c;
+        letter-spacing: 1.56px;
+        text-align: center;
+        transition: 0.6s;
+        padding: 5.4px 45px 5.4px 43px;
+    }
+    
+    .btn-more:hover {
+        color: #e5d19b;
+        border: 1px solid #e5d19c;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+    
+    .merry_img {
+        display: block;
+        background-image: url(../img/logo_last_vers.png);
+        background-repeat: no-repeat;
+        background-position: 67px -96px;
+        background-size: 100%;
+        width: 838px;
+        height: 782px;
+        margin-top: -1px;
+        margin-right: 45px;
+    }
+    /* КОНЕЦ ЦЕНТРАЛЬНОГО БЛОКА */
+    /* НАЧАЛО ФУТЕРА */
+    
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -179px;
+        margin-left: -27px;
+    }
+    
+    .footer-h2-span h2 {
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.4;
+        letter-spacing: 0.3px;
+        max-width: 240px;
+        padding-left: 2px;
+    }
+    
+    .footer-h2-span span {
+        display: block;
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2.2px;
+        padding-bottom: 6.6px;
+    }
+    
+    .footer-p {
+        text-align: right;
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: 35px;
+        margin-left: -497px;
+        max-width: 450px;
+        letter-spacing: 0.4px;
+        line-height: 1.35;
+    }
+    
+    .icons-box ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        margin-left: -180px;
+        margin-top: 48px;
+    }
+    
+    .icons-box li {
+        margin: 0px;
+    }
+    
+    .icon-tw {
+        background-image: url(../img/Icons.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 32px;
+        width: 26px;
+        background-size: 379%;
+        display: block;
+        background-position: 0px 2px;
+        margin: 0 auto;
+        align-self: center;
+    }
+    
+    .icon-fb {
+        background-image: url(../img/Icons.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 32px;
+        width: 26px;
+        background-size: 379%;
+        display: block;
+        background-position: -36px 2px;
+        margin: 0 10px;
+        align-self: center;
+    }
+    
+    .icon-inst {
+        background-image: url(../img/Icons.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 32px;
+        width: 26px;
+        background-size: 379%;
+        display: block;
+        background-position: -74px 2px;
+        margin: 0 auto;
+        align-self: center;
+    }
+    /* КОНЕЦ ФУТЕРА */
